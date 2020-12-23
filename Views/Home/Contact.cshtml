@@ -1,0 +1,15 @@
+﻿@{
+    var rng = ViewData["RNG"] as RNG;
+}
+<h2>PassUsingViewData</h2>
+
+<p>Rand value first: @rng.value1</p>
+<p>Rand value second: @rng.value2</p>
+<p>Add:</p>
+<p>@rng.value1 + @rng.value2 = @rng.plus</p>
+<p>Sub:</p>
+<p>@rng.value1 - @rng.value2 = @rng.minus</p>
+<p>Mult:</p>
+<p>@rng.value1 * @rng.value2 = @rng.multiply</p>
+<p>Div:</p>
+<p>@rng.value1 / @rng.value2 = @rng.divide</p>
